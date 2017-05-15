@@ -21,6 +21,14 @@
             android:text="Nothing yet"
             android:id="@+id/cameraStatus"/>
 
+        <SeekBar
+            android:id="@+id/seek1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:progress="20"
+            android:secondaryProgress="0"/>
+
         <SurfaceView
             android:id="@+id/surfaceview"
             android:layout_width="640px"
