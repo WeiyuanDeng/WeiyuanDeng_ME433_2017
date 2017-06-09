@@ -30,7 +30,6 @@
             android:progress="20"
             android:secondaryProgress="20"
             android:paddingTop="10dp"
-            android:paddingBottom="10dp"
             />
 
         <TextView
@@ -68,3 +67,5 @@
         </ScrollView>
 
     </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
